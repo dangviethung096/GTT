@@ -1,0 +1,5 @@
+#!/bin/bash
+if gcc -Wall -g GeneratorTest.c -o GeneratorTest 
+then
+    ./GeneratorTest
+fi

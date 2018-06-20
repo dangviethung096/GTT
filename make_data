@@ -1,0 +1,5 @@
+#!/bin/bash
+if gcc -Wall -g GeneratorData.c -o GeneratorData
+then
+    ./GeneratorData
+fi

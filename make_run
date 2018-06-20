@@ -1,0 +1,5 @@
+#!/bin/bash
+if gcc -Wall -g GTT.c HashTable.c LinkedList.c MakeHtml.c ReadData.c TernaryTree.c Wildcard.c Main.c -o run   
+then    
+    ./run
+fi
